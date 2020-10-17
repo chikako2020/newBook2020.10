@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(270deg, #f6f0cc, #ff6c94, #f7c6bd,  #ff6c94, #f6f0cc);
+background-size: 1000% 1000%;
+color: #755521;
+width: 500px;
+margin-right: auto;
+margin-left: auto;
+
+
+-webkit-animation: background 30s ease infinite;
+-moz-animation: background 30s ease infinite;
+-o-animation: background 30s ease infinite;
+animation: background 30s ease infinite;
+}
+
+@-webkit-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes background { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+button{
+    padding: 5px 20px;
+    background-color: rgb(112, 179, 228);
+    border-style: none;
+    color: #755521;
+}
+input {
+    height: 25px;
+}
