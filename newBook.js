@@ -61,6 +61,7 @@ function appendAssessmentResult(element,result){
   const h3 = document.createElement('h3');//h3タグを作る
   h3.innerText = 'おすすめの本';//h3タグに'おすすめの本'の文字列を設定
   element.appendChild(h3);//result-areaにh3変数を設定
+  resultDivided.style.display = 'block'; //result-areaに枠線を表示
 
 //result-areaにpタグでおすすめの本を表示
 const p = document.createElement('p');
