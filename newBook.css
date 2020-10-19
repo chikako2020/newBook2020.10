@@ -42,3 +42,13 @@ button{
 input {
     height: 25px;
 }
+
+#result-area {
+    display: none; 
+    margin: 30px 0px;
+    padding: 40px ;
+    border: solid 3px  #857c6d;/*線*/
+    border-radius: 10px;/*角の丸み*/
+    background-color: #f6f0cc;
+    }
+
